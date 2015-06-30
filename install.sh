@@ -1,6 +1,6 @@
 #!/bin/sh
 
-APP_DIR=$HOME/.kiennt_dotfile
+APP_DIR=$HOME/.zozovp_dotfile
 
 function copy_files {
     cd "$APP_DIR"
@@ -14,7 +14,7 @@ function copy_files {
 function install {
     rm -rf "$APP_DIR"
     echo "Installing dotfile for the first time"
-    git clone https://github.com/kiennt/dotfile.git "$APP_DIR"
+    git clone https://github.com/zozovp/dotfile.git "$APP_DIR"
     copy_files
 }
 
